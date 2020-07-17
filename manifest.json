@@ -1,0 +1,41 @@
+{
+	"manifest_version": 2,
+	"name": "Phimmoi Unblocker",
+	"description": "Unblock foreign country restriction on phimmoi.net!!",
+	"author": "Lam Ngo - vdev.lamnn@gmail.com",
+	"version": "0.2.4",
+	"content_scripts": [
+		{
+			"matches": [
+				"http://www.phimmoizz.net/*",
+				"http://www.phimmoiz.net/*"
+			],
+			"js": [
+				"content.js"
+			],
+			"run_at": "document_end"
+		}
+	],
+	"permissions": [
+		"background",
+		"webRequest",
+		"webRequestBlocking",
+		"*://www.phimmoiz.net/*",
+		"*://www.phimmoizz.net/*"
+	],
+	"icons": {
+		"16": "images/movie-logo.png",
+		"128": "images/movie-logo.png"
+	},
+	"browser_action": {
+		"default_icon": "images/movie-logo.png",
+		"default_popup": "popup/index.html",
+		"default_title": "Unblock foreign country restriction on phimmoi.net"
+	},
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	}
+}
