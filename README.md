@@ -5,8 +5,8 @@ Unblock watching online feature on phimmoiz.net/phimmoizz.net from any foreign c
 
 1. Clone this repo or download the extension folder and extract it [here](https://drive.google.com/file/d/1eyXQPqbALO9VrlOclrNSzDwX_d8L9BFz/view)
 2. Open Chrome, go to URL at [chrome://extensions/](chrome://extensions/)
-3. Enable "Developer mode" (look on the top right)
-4. Click on Load unpacked, choose **phimmoi-unblocked** folder and enjoy it :)
+3. Enable "Developer mode" (look at the top right)
+4. Click on Load unpacked, choose **phimmoi-unblocker** folder and enjoy it :)
 
 (I'm waiting the Chrome Store to verify the app so we will have an easier way to install it)
 
